@@ -1,8 +1,8 @@
-name: CI
+name: Ubuntu
 on: [push]
 jobs:
-  build:
+  Ubuntu:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Debug Session
-        uses: virw/debugger-action@master
+        uses: csexton/debugger-action@master
