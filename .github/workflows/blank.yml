@@ -1,0 +1,8 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Debug Session
+        uses: virw/debugger-action@master
